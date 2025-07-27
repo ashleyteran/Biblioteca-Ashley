@@ -2,33 +2,44 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Biblioteca Empresarial | Ashley Terán</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Biblioteca Virtual Empresarial</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #e3eaf9, #f0f4fd);
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #2c3e50;
+    }
+    p {
+      font-size: 1.2em;
+      color: #34495e;
+      margin-top: 20px;
+    }
+    .boton {
+      background-color: #4b7bec;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      margin-top: 40px;
+      font-size: 1em;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+    .boton:hover {
+      background-color: #3867d6;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>📚 Biblioteca Empresarial</h1>
-    <p>Desarrollado por Ashley Terán</p>
-  </header>
-
-  <main>
-    <section class="menu">
-      <button onclick="mostrarLibros()">📖 Ver libros disponibles</button>
-      <button onclick="mostrarUsuarios()">👥 Ver usuarios</button>
-      <button onclick="generarReporte()">📊 Reporte de biblioteca</button>
-      <button onclick="normalizarDatos()">🔤 Normalizar datos</button>
-    </section>
-
-    <section id="resultado" class="tarjeta">
-      <p>📌 Aquí verás los resultados de tus acciones.</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 Biblioteca Empresarial | Proyecto Final ADA</p>
-  </footer>
-
-  <script src="script.js"></script>
+  <h1>📚 Biblioteca Virtual Empresarial</h1>
+  <p>¡Bienvenida Ashley! Este proyecto fue desarrollado en JavaScript para consola,<br> con una estructura de datos robusta y todas las funciones solicitadas en el integrador final.</p>
+  <button class="boton" onclick="alert('Este proyecto se ejecuta en consola, por favor abrilo con Node.js')">Ver Proyecto</button>
 </body>
 </html>

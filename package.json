@@ -1,17 +1,24 @@
 {
   "name": "ashleyt.ada",
   "version": "1.0.0",
-  "description": "Sistema de Gestión de Biblioteca Empresarial - Proyecto Final JavaScript ADA",
+  "description": "",
   "main": "AshleyTeran.js",
   "scripts": {
     "start": "node AshleyTeran.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashleyteran/Biblioteca-Ashley.git"
+  },
   "keywords": [],
-  "author": "Ashley Terán",
+  "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ashleyteran/Biblioteca-Ashley/issues"
+  },
+  "homepage": "https://github.com/ashleyteran/Biblioteca-Ashley#readme",
   "dependencies": {
     "prompt-sync": "^4.2.0"
   }
 }
-
